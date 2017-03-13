@@ -1,0 +1,55 @@
+GIT COMMANDS
+
+-git init
+// to setup the working directory
+
+git add filename
+// to add a file to stage area(snapshot) or index
+
+git commit filename -m "enter your message"
+// commit is to add this files to local repository
+
+git status
+// used to check the status of the files
+
+git log
+//used to check the history of the files
+
+git config --global user.name "rohith"
+//  to connect to github(remote repository)
+
+git config --global user.email "rohithreddyralla@gmail.com"
+// same as above (github)
+
+git remote add rohith url
+// url(provide your github repository link) //link to connect to server
+
+git push -u rohith master
+// push all the files in local to remote repository in master branch
+
+git add '.txt'
+// to add all txt format files to index
+
+git fetch 
+// fetch is used to get the changes done by others in remote repository to local repository
+
+git pull 
+// get all the changes done by the team to your local repository and working space
+
+git reset filepath
+// to reset the changes before you commit //give the file location
+
+git branch branchname
+// to create a branch to develop any changes and after your develop changes,we can merge 
+
+git rm '*.txt'
+// to remove all the txt file from the branch
+
+git merge branchname
+// to merge the changes done in the other branch to the present branch
+
+git branch -d branch
+// to delete the branch after the work or modifications done
+
+git push
+//after making changes
